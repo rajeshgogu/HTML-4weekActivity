@@ -1,0 +1,27 @@
+/* this is paragraph styling */
+p{
+    color: #2f8aa9;
+    background-color: #f61067;
+    /* absolute units */
+    /* width: 20px; */
+    /* relative unit */
+    /* width: 70vh; */
+    margin: 0;
+    line-height: 1.2;
+}
+
+div{
+    transform: rotate(0deg);
+    width: calc(80% - 20px);
+    height: 100vh;
+    background-image: url("/images/rajesh.jpg");
+}
+
+h1,h2,h3,h4,h5{
+    color: violet;
+
+}
+
+/* h2{
+    color: chartreuse;
+} */
