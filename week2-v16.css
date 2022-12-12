@@ -1,0 +1,34 @@
+body{
+    border: 1px solid #333;
+}
+div{
+    background: lightblue;
+    margin: 10px;
+    padding: 10px;
+    width: 60px;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    top: 50px;
+    right: -130px;
+    background: purple;
+    z-index: 200;
+}
+.absolute{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+}
+.fixed{
+    position: fixed;
+    top: -80px;
+    right: 20px;
+}
+.sticky{
+    position: sticky;
+    top: 30%;
+}
